@@ -10,6 +10,13 @@ We need to define a predicate for the recursive transversal of the
 planned ASDF graph that allows us to select restarts for whether any
 given section of the build machinery fails, and signals a condition.  
 
+*** Demonstration of problem (Xach)
+
+#+BEGIN_SRC lisp
+   #p"<file:warno.asd>"
+#+END_SRC
+
+
 *** TODO construct predicate
 
 ** (easye) :DEFSYSTEM-DEPENDS-ON clauses should use Quicklisp network load transparently
