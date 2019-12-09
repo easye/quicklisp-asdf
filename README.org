@@ -32,18 +32,23 @@ Involves patching <https://github.com/quicklisp/quicklisp-client>.
 
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
-Really.  Stop bitchin': tell us what doesn't work for you.
+Tell us what doesn't work for you.
 
 * Examples
 
-[…]
+#+BEGIN_SRC lisp
+(loop :for system :in '(:custodes :warno)
+  (when (asdf:find-system system)
+    (ql:uninstall system)
+  (ql:quickload system)))
+#+END_SRC
 
 * Colophon
 
 #+BEGIN_EXAMPLE
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-09 Mon 22:26>
+    Revised: <2019-12-09 Mon 23:39>
 #+END_EXAMPLE
 
 
