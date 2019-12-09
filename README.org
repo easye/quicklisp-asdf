@@ -13,7 +13,11 @@ given section of the build machinery fails, and signals a condition.
 
 ** (easye) :DEFSYSTEM-DEPENDS-ON clauses should use Quicklisp network load transparently
 
+Involves patching <https://github.com/quicklisp/quicklisp-client>.
+
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
+
+Really.  Stop bitchin': tell us what doesn't work for you.
 
 * Colophon
 
