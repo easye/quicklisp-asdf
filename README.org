@@ -1,6 +1,6 @@
 * Problems
 
-Problems that Zach Beene and Mark Evenson have with how Quicklisp and
+Problems that Zach Beane and Mark Evenson have with how Quicklisp and
 ASDF interact.
 
 ** (Xach) Muffling warnings should not always be fatal
@@ -13,5 +13,6 @@ ASDF interact.
 
   Mark <evenson.not.org@gmail.com>
   Created: <2019-12-09 Mon>
-  Revised: <2019-12-09 Mon 21:04>
+  Revised: <2019-12-09 Mon 21:07>
+
 
