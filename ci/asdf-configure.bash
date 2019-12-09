@@ -10,5 +10,8 @@ mkdir -p $dest
 root=${TRAVIS_BUILD_DIR}
 
 # TODO figure out how to sanely address paths
+# TODO don't spam ASDF
 echo "(:tree \"${root}\")" > ${dest}/quicklisp-asdf.conf
+echo "(:tree \"${root}\")" > ${dest}/custodes.conf
+echo "(:tree \"${root}\")" > ${dest}/warno.conf
 
