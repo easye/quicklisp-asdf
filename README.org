@@ -6,6 +6,13 @@ ASDF interact.
 ** (Xach) compile warnings should not always be fatal conditionally
 <https://lispblog.xach.com/post/104872127228/a-verbosity-conundrum>
 
+*** (Xach)
+<https://twitter.com/xach/status/1204038946503741440?s=20>
+To simplify: I want to establish a dynamic environment (variables and
+handler binds) around each call to LOAD-SYSTEM, including
+recursively. I haven't found a way yet.
+
+*** Problem transcription (easye)
 We need to define a predicate for the recursive transversal of the
 planned ASDF graph that allows us to select restarts for whether any
 given section of the build machinery fails, and signals a condition.  
