@@ -3,7 +3,8 @@
 Problems that Zach Beane and Mark Evenson have with how Quicklisp and
 ASDF interact.
 
-** (Xach) Muffling warnings should not always be fatal
+** (Xach) compile warnings should not always be fatal conditionally
+<https://lispblog.xach.com/post/104872127228/a-verbosity-conundrum>
 
 We need to define a predicate for the recursive transversal of the
 planned ASDF graph that allows us to select restarts for whether any
@@ -24,7 +25,7 @@ Really.  Stop bitchin': tell us what doesn't work for you.
 #+BEGIN_EXAMPLE
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-09 Mon 21:21>
+    Revised: <2019-12-09 Mon 21:26>
 #+END_EXAMPLE
 
 
