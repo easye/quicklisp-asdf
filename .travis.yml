@@ -29,6 +29,7 @@ install:
 
 script:
   - date
+  - sbcl --eval '(lisp-implementation-version)' --eval '(asdf:asdf-version)' --eval '(exit :code 0)'
   - sbcl --eval '(ql:quickload :warno)' --eval '(exit :code 0)'
   - sbcl --eval '(asdf:load-system :warno)' --eval '(exit :code 0)'
   - date
