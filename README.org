@@ -34,12 +34,16 @@ Involves patching <https://github.com/quicklisp/quicklisp-client>.
 
 Really.  Stop bitchin': tell us what doesn't work for you.
 
+* Examples
+
+[…]
+
 * Colophon
 
 #+BEGIN_EXAMPLE
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-09 Mon 21:26>
+    Revised: <2019-12-09 Mon 22:26>
 #+END_EXAMPLE
 
 

@@ -23,6 +23,9 @@ addons:
 
 install:
   - echo $(pwd)
+  - bash -x ${TRAVIS_BUILD_DIR}/ci/asdf-configure.bash
+  - bash -x ${TRAVIS_BUILD_DIR}/ci/quicklisp-install.bash
+
 
 script:
   - sbcl --eval '(ql:quickload :warno)'
