@@ -8,6 +8,7 @@ mkdir -p $dest
 
 # Locate the root of the source repository
 root=${TRAVIS_BUILD_DIR}
+root=$HOME/work/quicklisp-asdf
 
 # TODO figure out how to sanely address paths
 # TODO don't spam ASDF

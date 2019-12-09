@@ -38,9 +38,12 @@ Tell us what doesn't work for you.
 
 #+BEGIN_SRC lisp
 (loop :for system :in '(:custodes :warno)
-  (when (asdf:find-system system)
-    (ql:uninstall system)
-  (ql:quickload system)))
+   :when
+      (asdf:find-system system)
+   :do
+     (ql:uninstall system)
+   :doing
+     (ql:quickload system))
 #+END_SRC
 
 * Colophon
@@ -48,7 +51,7 @@ Tell us what doesn't work for you.
 #+BEGIN_EXAMPLE
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-09 Mon 23:39>
+    Revised: <2019-12-09 Mon 23:46>
 #+END_EXAMPLE
 
 
