@@ -28,6 +28,7 @@ install:
 
 
 script:
-  - sbcl --eval '(ql:quickload :warno)'
-  - sbcl --eval '(asdf:load-system :warno)'
-
+  - date
+  - sbcl --eval '(ql:quickload :warno)' --eval '(exit :code 0)'
+  - sbcl --eval '(asdf:load-system :warno)' --eval '(exit :code 0)'
+  - date
