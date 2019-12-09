@@ -1,0 +1,17 @@
+* Problems
+
+Problems that Zach Beene and Mark Evenson have with how Quicklisp and
+ASDF interact.
+
+** (Xach) Muffling warnings should not always be fatal
+
+** (easye) :DEFSYSTEM-DEPENDS-ON clauses should use Quicklisp network load transparently
+
+** (everyone) I shouldn't care that Quicklisp uses ASDF2
+
+* Colophon
+
+  Mark <evenson.not.org@gmail.com>
+  Created: <2019-12-09 Mon>
+  Revised: <2019-12-09 Mon 21:04>
+
