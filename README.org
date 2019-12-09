@@ -5,14 +5,22 @@ ASDF interact.
 
 ** (Xach) Muffling warnings should not always be fatal
 
+We need to define a predicate for the recursive transversal of the
+planned ASDF graph that allows us to select restarts for whether any
+given section of the build machinery fails, and signals a condition.  
+
+*** TODO construct predicate
+
 ** (easye) :DEFSYSTEM-DEPENDS-ON clauses should use Quicklisp network load transparently
 
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
 * Colophon
 
-  Mark <evenson.not.org@gmail.com>
-  Created: <2019-12-09 Mon>
-  Revised: <2019-12-09 Mon 21:07>
+#+BEGIN_EXAMPLE
+    Mark <evenson.not.org@gmail.com>
+    Created: <2019-12-09 Mon>
+    Revised: <2019-12-09 Mon 21:21>
+#+END_EXAMPLE
 
 
