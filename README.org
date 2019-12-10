@@ -37,6 +37,12 @@ Tell us what doesn't work for you.
 * Examples
 
 #+BEGIN_SRC lisp
+(when (asdf:find-system :prove)
+  (ql:uninstall :prove))
+(ql:quickload :disprove)
+#+END_SRC
+
+#+BEGIN_SRC lisp
 (loop :for system :in '(:custodes :warno)
    :when
       (asdf:find-system system)

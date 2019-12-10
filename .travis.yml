@@ -33,5 +33,6 @@ script:
   - sbcl --eval '(ql:quickload :custodes)' --eval '(exit :code 0)'
   - sbcl --eval '(asdf:load-system :custodes)' --eval '(exit :code 0)'
   - sbcl --load ${TRAVIS_BUILD_DIR}/ci/prove-quickloads.lisp --eval '(exit :code 0)'
+  - sbcl --load ${TRAVIS_BUILD_DIR}/ci/quickload-disprove.lisp --eval '(exit :code 0)'
   - date
   

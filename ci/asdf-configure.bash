@@ -20,4 +20,5 @@ fi
 echo "(:tree \"${root}\")" > ${dest}/quicklisp-asdf.conf
 echo "(:tree \"${root}\")" > ${dest}/custodes.conf
 echo "(:tree \"${root}\")" > ${dest}/warno.conf
+echo "(:tree \"${root}\")" > ${dest}/disprove.conf
 
