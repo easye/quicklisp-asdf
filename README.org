@@ -23,12 +23,13 @@ given section of the build machinery fails, and signals a condition.
    #p"<file:warno.asd>"
 #+END_SRC
 
-
 *** TODO construct predicate
 
 ** (easye) :DEFSYSTEM-DEPENDS-ON clauses should use Quicklisp network load transparently
 
 Involves patching <https://github.com/quicklisp/quicklisp-client>.
+
+Zach's work on this can be seen in <https://github.com/quicklisp/ddo-bug>.
 
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
@@ -57,7 +58,7 @@ Tell us what doesn't work for you.
 #+BEGIN_EXAMPLE
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-09 Mon 23:46>
+    Revised: <2019-12-11 Wed 07:52>
 #+END_EXAMPLE
 
 
