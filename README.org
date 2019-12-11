@@ -31,12 +31,13 @@ Involves patching <https://github.com/quicklisp/quicklisp-client>.
 
 Zach's work on this can be seen in <https://github.com/quicklisp/ddo-bug>.
 
-*** Statement of issues from ASDF perspective
-
 
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
 Tell us what doesn't work for you.
+
+| Quicklisp | <https://github.com/quicklisp/quicklisp-client/> |
+| ASDF      | <https://gitlab.common-lisp.net/asdf/asdf/>      |
 
 * Examples
 
@@ -62,7 +63,7 @@ Tell us what doesn't work for you.
     <git+https:/github.com/easye/quicklisp-asdf.git>
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-11 Wed 10:13>
+    Revised: <2019-12-11 Wed 10:59>
 #+END_EXAMPLE
 
 
