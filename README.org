@@ -1,7 +1,7 @@
 * Problems
 
 Problems that Zach Beane and Mark Evenson have with how Quicklisp and
-ASDF interact.
+ASDF interact identified during #sbcl20 in Vienna, December 2019.
 
 ** (Xach) compile warnings should not always be fatal conditionally
 <https://lispblog.xach.com/post/104872127228/a-verbosity-conundrum>
@@ -31,6 +31,9 @@ Involves patching <https://github.com/quicklisp/quicklisp-client>.
 
 Zach's work on this can be seen in <https://github.com/quicklisp/ddo-bug>.
 
+*** Statement of issues from ASDF perspective
+
+
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
 Tell us what doesn't work for you.
@@ -56,9 +59,10 @@ Tell us what doesn't work for you.
 * Colophon
 
 #+BEGIN_EXAMPLE
+    <git+https:/github.com/easye/quicklisp-asdf.git>
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-11 Wed 07:52>
+    Revised: <2019-12-11 Wed 10:13>
 #+END_EXAMPLE
 
 
