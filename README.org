@@ -31,6 +31,16 @@ Involves patching <https://github.com/quicklisp/quicklisp-client>.
 
 Zach's work on this can be seen in <https://github.com/quicklisp/ddo-bug>.
 
+** (ECL) should be able to use ASDF without UIOP
+
+For distribution packaging in some CL implementations, the presence of UIOP should not be required.  
+
+*** TODO (easye) possible solution: figure out how to "undo" the use of UIOP
+
+Possibly dynamically construct a facade for UIOP which "does enough"
+for what the packaging process does.
+
+
 
 ** (everyone) I shouldn't care that Quicklisp uses ASDF2
 
@@ -63,7 +73,7 @@ Tell us what doesn't work for you.
     <git+https:/github.com/easye/quicklisp-asdf.git>
     Mark <evenson.not.org@gmail.com>
     Created: <2019-12-09 Mon>
-    Revised: <2019-12-11 Wed 10:59>
+    Revised: <2019-12-11 Wed 11:29>
 #+END_EXAMPLE
 
 
